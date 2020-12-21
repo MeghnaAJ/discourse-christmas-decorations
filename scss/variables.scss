@@ -1,0 +1,8 @@
+// Functions
+// *------------------------------------------------*
+@function get_invert($invert){
+  @if $invert == "true"{
+    @return 1
+  }
+  @return 0
+}

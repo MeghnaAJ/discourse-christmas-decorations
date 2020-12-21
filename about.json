@@ -1,0 +1,11 @@
+{
+  "name": "discourse-christmas-decorations",
+  "about_url": null,
+  "license_url": null,
+  "author": "Meghna",
+  "assets": {
+    "hat": "assets/hat.png",
+    "decoration": "assets/christmas-decoration.png"
+  },
+  "component": true
+}

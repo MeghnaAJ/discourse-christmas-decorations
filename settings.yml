@@ -1,0 +1,15 @@
+enable_lights:
+  default: true
+  description: "Enable lights?"
+
+enable_hats:
+  default: true
+  description: "Show hat on avatars?"
+
+enable_decoration_image:
+  default: true
+  description: "Show decoration image?"
+
+decoration_invert_color:
+  default: false
+  description: "Invert decoration image color? Enable this on dark theme."

@@ -1,0 +1,32 @@
+@import 'hats';
+@import 'lights';
+@import 'variables';
+
+@if $enable-lights == "true" {
+  .list-controls {
+    clear: both;
+    margin-bottom: 5px;
+    margin-top: 15px;
+  }
+}
+
+@media all and (min-width: 1300px) {
+  #main {
+    &:before, &:after {
+      content: "";
+      display: block;
+      top: 6em;
+      width: 200px;
+      height: 200px;
+      position: absolute;
+      background: transparent url($decoration) top left no-repeat;
+      background-size: contain;
+      z-index: -1;
+      filter: invert(get_invert($decoration-invert-color));
+    }
+    &:after {
+      right: 0;
+      transform: scaleX(-1);
+    }
+  }
+}
