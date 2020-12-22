@@ -11,14 +11,14 @@
 }
 
 @if $enable-decoration-image == "true" {
-  @media all and (min-width: 1300px) {
+  @media all and (min-width: 1450px) {
     #main {
       &:before, &:after {
         content: "";
         display: block;
         top: 6em;
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
         position: absolute;
         background: transparent url($decoration) top left no-repeat;
         background-size: contain;
