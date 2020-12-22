@@ -1,7 +1,7 @@
 {
   "name": "discourse-christmas-decorations",
-  "about_url": null,
-  "license_url": null,
+  "about_url": "https://meta.discourse.org/t/christmas-decoration-component/173949",
+  "license_url": "https://github.com/MeghnaAJ/discourse-christmas-decorations/blob/master/LICENSE",
   "author": "Meghna",
   "assets": {
     "hat": "assets/hat.png",

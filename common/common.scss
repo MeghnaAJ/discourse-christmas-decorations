@@ -1,34 +1,3 @@
 @import 'hats';
 @import 'lights';
-@import 'variables';
-
-@if $enable-lights == "true" {
-  .list-controls {
-    clear: both;
-    margin-bottom: 5px;
-    margin-top: 15px;
-  }
-}
-
-@if $enable-decoration-image == "true" {
-  @media all and (min-width: 1450px) {
-    #main {
-      &:before, &:after {
-        content: "";
-        display: block;
-        top: 6em;
-        width: 150px;
-        height: 150px;
-        position: absolute;
-        background: transparent url($decoration) top left no-repeat;
-        background-size: contain;
-        z-index: -1;
-        filter: invert(get_invert($decoration-invert-color));
-      }
-      &:after {
-        right: 0;
-        transform: scaleX(-1);
-      }
-    }
-  }
-}
+@import 'image';
