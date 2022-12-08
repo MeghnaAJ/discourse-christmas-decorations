@@ -5,10 +5,10 @@
     position: relative;
   }
 
-  .topic-avatar > a::after {
+  .topic-avatar .post-avatar a::after {
     content: "";
     position: absolute;
-    top: -40%;
+    top: -62%;
     left: -27%;
     width: 130%;
     height: 100%;
@@ -16,15 +16,15 @@
     background-size: contain;
   }
 
-  .topic-post:nth-of-type(2n) .topic-avatar > a::after {
+  .topic-post:nth-of-type(2n) .post-avatar a::after {
     transform: rotate(-5deg) translateX(-4px);
   }
 
-  .topic-post:nth-of-type(3n) .topic-avatar > a::after {
+  .topic-post:nth-of-type(3n) .post-avatar a::after {
     transform: scaleX(-1) rotate(5deg) translateX(-8px);
   }
 
-  .topic-post:nth-of-type(5n) .topic-avatar > a::after {
+  .topic-post:nth-of-type(5n) .post-avatar a::after {
     transform: rotate(5deg) translateX(4px);
   }
 
@@ -49,11 +49,11 @@
     left: 2px;
   }
 
-  #current-user {
-    div {
+  #current-user > a {
+    & > div {
       position: relative;
     }
-    div::after {
+    & > div::after {
       content: "";
       position: absolute;
       display: block;
